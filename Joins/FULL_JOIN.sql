@@ -29,3 +29,12 @@ FROM customers
 
 SELECT *
 FROM orders
+
+-- INSERT more rows in orders table
+
+/*
+INSERT INTO orders (order_id, customer_id, order_date, sales)
+VALUES
+	(5, 7, '2022-01-01', 13),
+	(6, 10, '2022-02-25', 22)
+*/
