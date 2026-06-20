@@ -8,6 +8,7 @@ SELECT *
 FROM customers
 LEFT JOIN orders
 ON id = customer_id
+WHERE customer_id IS NULL
 
 -- Another way using ALIAS ======================================================
 
